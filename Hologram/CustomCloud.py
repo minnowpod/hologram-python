@@ -385,7 +385,7 @@ class CustomCloud(Cloud):
             self.network.disconnect()
 
     def getResultString(self, result_code):
-        return str(response)
+        return str(result_code)
 
     def resultWasSuccess(self, result_code):
         return True
